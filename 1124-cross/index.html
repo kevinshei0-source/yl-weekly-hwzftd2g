@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>林國漳 × 亞別／黃國昌 議題交集分析 2026/11/18–11/24 15:51（近 7 天）</title>
+<style>
+/* 版面：單欄，摘要在上、細節在下；手機寬度可閱讀 */
+:root { --bg:#f6f7f5; --panel:#ffffff; --fg:#1f2522; --muted:#66706b; --line:#dde2df; --lin:#c27c1a; --wu:#6b4fb3; --pos:#2f9461; --neg:#c8423f; --neu:#b8c0bc; --hl:#eef2ef; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg:#141816; --panel:#1c211f; --fg:#e7ece9; --muted:#9aa5a0; --line:#323a36; --lin:#e0a14a; --wu:#9c84e0; --pos:#4cb37c; --neg:#e06a66; --neu:#59625e; --hl:#26302b; color-scheme: dark; } }
+* { box-sizing: border-box }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.6 "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", system-ui, sans-serif; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 28px max(16px, env(safe-area-inset-left)) 48px max(16px, env(safe-area-inset-right)); display: flex; flex-direction: column; gap: 20px; }
+h1 { font-size: 28px; margin: 0; letter-spacing: .5px; }
+h2 { font-size: 18px; margin: 0 0 4px; }
+.sub { color: var(--muted); font-size: 13px; margin: 0; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px; min-width: 0; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px; }
+.kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; margin-top: 8px; }
+.kpi div { display: flex; flex-direction: column; }
+.kpi b { font-size: 26px; font-variant-numeric: tabular-nums; font-weight: 600; }
+.kpi span { font-size: 12px; color: var(--muted); }
+.cand { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 17px; }
+.dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+.note { font-size: 12.5px; color: var(--muted); margin: 4px 0 10px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-bottom: 10px; }
+.seg button { font: inherit; font-size: 13px; padding: 6px 14px; border: 0; background: transparent; color: var(--fg); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+button:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+svg text { fill: var(--fg); font-size: 12px; }
+svg .mut { fill: var(--muted); }
+.tbl { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th { text-align: left; color: var(--muted); font-weight: 600; padding: 7px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+a:hover { text-decoration-color: currentColor; }
+.tag { display: inline-block; font-size: 11.5px; padding: 1px 7px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.topics { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: 18px; }
+.trow { display: grid; grid-template-columns: minmax(0, 1fr) 46px; gap: 8px; align-items: center; padding: 6px 8px; border-radius: 6px; cursor: pointer; }
+.trow:hover, .trow.sel { background: var(--hl); }
+.tname { font-size: 13.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tbar { height: 8px; border-radius: 4px; margin-top: 4px; }
+.stance { display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-top: 3px; }
+.tsc { text-align: right; font-variant-numeric: tabular-nums; font-size: 13px; color: var(--muted); }
+.detail h3 { margin: 0 0 6px; font-size: 16px; }
+.dm { display: grid; grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); gap: 8px; margin: 8px 0 12px; }
+.dm b { display: block; font-size: 18px; font-variant-numeric: tabular-nums; }
+.dm span { font-size: 12px; color: var(--muted); }
+ul.method { margin: 0; padding-left: 1.2em; font-size: 13px; color: var(--muted); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.peaks { margin-top: 10px; }
+ul.pts { margin: 0; padding-left: 1.2em; font-size: 14px; }
+ul.pts li { margin-bottom: 6px; }
+.hkrow { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; padding: 10px; border-radius: 8px; cursor: pointer; border: 1px solid var(--line); margin-bottom: 8px; }
+.hkrow.sel, .hkrow:hover { background: var(--hl); }
+.hkbar { display: flex; height: 18px; border-radius: 5px; overflow: hidden; }
+.hkbar i { display: block; height: 100%; }
+.hknums { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; color: var(--muted); }
+.ex ul { margin: 4px 0 0; padding-left: 1.2em; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>林國漳 × 亞別／黃國昌｜議題交集分析</h1>
+    <p class="sub">期間 2026/11/18–11/24 15:51（近 7 天）｜資料：快析 QuickseeK「宜蘭縣長選舉」議題分析｜維度一 林國漳 × 維度二 亞別／黃國昌｜好感度為逐筆判讀「對林國漳的立場」</p>
+  </header>
+
+  <section class="card"><h2>重點摘要</h2><ul class="pts" id="summary"></ul></section>
+
+  <section class="grid2" id="kpis"></section>
+
+  <section class="card">
+    <h2>每日聲量走勢</h2>
+    <p class="note">聲量＝主文＋回文筆數。點選日期，下方會列出當天聲量最高的討論串，以及占林國漳當日總聲量的比例。</p>
+    <div class="legend" id="trend-legend"></div>
+    <div id="trend"></div>
+    <div class="peaks tbl"><table><thead><tr><th>交集</th><th>當天聲量最高的討論串</th><th>話題</th><th class="n">當日聲量</th></tr></thead><tbody id="peaks"></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <h2>高互動文章 TOP10</h2>
+    <p class="note">依主文互動數排序。立場＝主文本身對林國漳的立場。</p>
+    <div class="seg" id="topi-seg"></div>
+    <div class="tbl"><table><thead><tr><th>#</th><th>標題</th><th>頻道</th><th class="n">互動</th><th class="n">聲量</th><th>立場</th></tr></thead><tbody id="topi"></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <h2>正面／負面文章 TOP10</h2>
+    <p class="note">依主文本身對林國漳的立場判斷（不看留言），再依主文互動數排序。</p>
+    <div class="seg" id="list-seg"></div>
+    <div class="grid2">
+      <div class="tbl"><h3 style="margin:0 0 6px;font-size:15px;color:var(--pos)">正面（支持林國漳）TOP10</h3><table><thead><tr><th>#</th><th>標題</th><th>來源</th><th class="n">互動</th><th class="n">聲量</th></tr></thead><tbody id="pos"></tbody></table></div>
+      <div class="tbl"><h3 style="margin:0 0 6px;font-size:15px;color:var(--neg)">負面（批評林國漳）TOP10</h3><table><thead><tr><th>#</th><th>標題</th><th>來源</th><th class="n">互動</th><th class="n">聲量</th></tr></thead><tbody id="neg"></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>話題討論度與好感度</h2>
+    <p class="note">討論度＝40%×聲量占比＋35%×互動占比＋25%×留言占比。長條下方細條為該話題的支持／中性／批評比例。點選話題看細節。</p>
+    <div class="seg" id="topic-seg"></div>
+    <div class="topics"><div id="tlist"></div><div class="detail" id="tdetail"></div></div>
+  </section>
+
+  <section class="grid2">
+    <div class="card"><h2>好感度（P/N）</h2><p class="note">逐筆判讀主文與留言對林國漳的立場：支持／中性／批評。P/N＝支持÷批評。</p><div id="sent"></div></div>
+    <div class="card"><h2>各來源聲量</h2><div class="legend" id="src-legend"></div><div id="src"></div></div>
+  </section>
+
+  <section class="card">
+    <h2>高聲量頻道 TOP10</h2>
+    <div class="grid2" id="channels"></div>
+  </section>
+
+  <section class="card">
+    <h2>黃國昌三篇貼文的留言分析</h2>
+    <p class="note">逐則閱讀分類，每則只歸一類；同時肯定黃國昌又批評林國漳者歸「噴林國漳」。點選貼文看代表留言。</p>
+    <div class="legend" id="hk-legend"></div>
+    <div id="hk" style="margin-top:8px"></div>
+    <div id="hk-ex" class="grid2" style="margin-top:12px"></div>
+  </section>
+
+  <section class="card">
+    <h2>對林國漳的影響與建議</h2>
+    <ul class="pts" id="impact"></ul>
+  </section>
+
+  <section class="card">
+    <h2>方法與資料說明</h2>
+    <ul class="method" id="method"></ul>
+  </section>
+</div>
+
+<script>
+const DATA = {"days": ["2026-11-18", "2026-11-19", "2026-11-20", "2026-11-21", "2026-11-22", "2026-11-23", "2026-11-24"], "base": [3763, 2892, 2645, 2422, 2478, 2734, 704], "lbl": {"亞別": "林國漳 × 亞別", "黃國昌": "林國漳 × 黃國昌"}, "hkcat": [["C", "噴林國漳", "#c8423f"], ["A", "肯定黃國昌", "#6b4fb3"], ["E", "噴民進黨／綠營（未點名林）", "#e08a3c"], ["B", "噴黃國昌", "#2f6fb0"], ["D", "挺林國漳", "#2f9461"], ["O", "其他／無文字", "#b8c0bc"]], "summary": ["<b>兩個話題其實是同一件事：<\/b>「亞別」指亞別建設。黃國昌 11/23 發文〈拒絕新潮流炒地集團入主宜蘭〉，指林國漳投資 250 萬元參與林錫耀弟弟林明賢任監察人的亞別建設礁溪建案；11/24 再發〈請問林國漳是要告什麼？〉追擊（臉書、Threads 各一篇）。吳宗憲陣營則從 11/18 起以 AI 饒舌歌手 James《問A答B》、造勢場「宜蘭不要第二個林百億」打同一題。", "<b>聲量規模：<\/b>近 7 天林國漳總聲量 17,638 筆，交集「亞別」1,270 筆（7.2%）、交集「黃國昌」678 筆（3.8%）。但集中在最後兩天：11/23 分別占林國漳當日聲量 20.2% 與 17.3%，11/24（至 15:51）升到 29.8% 與 23.3%，是選前最後一週正在升溫的攻擊話題。", "<b>好感度：<\/b>交集「亞別」支持 368、批評 168，P/N 2.19；交集「黃國昌」支持 289、批評 151，P/N 1.91。批評占比 13.2% 與 22.3%，遠高於上期（10/31–11/06）林國漳整體的 2.4%（P/N 12.65），這兩個話題明顯拉低林國漳的好感度。", "<b>擴散管道很集中：<\/b>九成左右在臉書，黃國昌粉專一個頻道就占交集「亞別」43%、交集「黃國昌」80% 的聲量；新聞只有 30 餘筆。林國漳「抹黑合法投資、將提告」的回應在社群幾乎沒有聲量（交集「黃國昌」僅 7 筆，多為新聞轉載）。", "<b>黃國昌貼文的留言區不是一面倒：<\/b>黃國昌三篇貼文（臉書 2 篇、Threads 1 篇）有文字的 545 則留言中，「噴黃國昌」占 50.3%（多拿周曉芸中共金援案、柯文哲京華城、建商岳父、「去提告啊」反擊），「噴林國漳」只有 12.1%、「肯定黃國昌」6.6%，另有 14.7% 是泛罵民進黨／綠營但沒點名林國漳。綠營支持者已在留言區自發反擊，但主文本身互動高（6,922），訊息仍有被看見。", "<b>需要處理的點：<\/b>對手已把指控具體化成「投資 250 萬、建案進帳 8 億、林股東獲利多少」的數字，並把「宣布提告」框成「喊告是奧步、躲了一整天」。選前只剩 4 天，建議以本人帳號直接說明投資金額、持股與合法性，避免只停在「將提告」。"], "impact": ["<b>影響程度：<\/b>兩個話題合計約占林國漳近 7 天聲量 7.8%，但 11/23–11/24 占當日 17–30%，是選前最後一週最主要的攻擊議題。批評占比 13–22%，是上期林國漳整體批評占比（2.4%）的 5–9 倍。", "<b>指控的擴散範圍：<\/b>主要靠黃國昌粉專與吳宗憲陣營自有渠道，主流新聞與在地社團轉載量不大；留言區有一半在反擊黃國昌，說明綠營基本盤沒有被說服，風險在中間選民與在地社團的二次轉傳。", "<b>回應缺口：<\/b>林國漳「抹黑合法投資、將提告」在社群幾乎沒有自發聲量（7 筆，皆為新聞），對手卻已把「提告」重新框成「喊告是奧步、躲了一整天」。只宣布提告而不說明內容，容易被反咬。", "<b>建議一：<\/b>由林國漳本人帳號用一則清楚的圖文說明投資時間、金額、持股比例、是否參與經營與財產申報情形，正面回答「林股東獲利多少」，並說明與鳳凰、宜蘭市公所土地無關（若屬實）。", "<b>建議二：<\/b>若決定提告，公布具體提告對象與日期，避免被說只喊不告；同時準備「農地使用」的說明，中時已把它和提告新聞綁在一起。", "<b>建議三：<\/b>支持者已自發用周曉芸案、建商岳父等反擊，官方不宜直接加入人身攻擊；可提供簡單的事實懶人包給支持者轉傳，把討論拉回「合法投資、公開申報」。", "<b>持續觀察：<\/b>吳宗憲 James 系列影片留言多為吳宗憲支持者打氣，對林國漳的直接批評不多；「農地使用」是可能接續的延伸話題。"], "method": ["<b>資料來源：<\/b>快析 QuickseeK「宜蘭縣長選舉」專案議題分析。維度一設定「林國漳」議題（關鍵字：林國漳），維度二分別設定「亞別」議題（關鍵字：亞別）與「黃國昌」議題（關鍵字：黃國昌），取兩者交集，含主文與回文。", "<b>區間：<\/b>2026/11/18 00:00 ～ 2026/11/24 15:51（近 7 天，11/24 只到製作當下）。數字為 11/24 15:51 抓取時的快照；快析之後仍會陸續補進同期間的留言，之後重抓筆數會變多。林國漳總聲量與每日聲量取自同一專案的聲量走勢。", "<b>筆數：<\/b>交集「亞別」1,270 筆（70 串）；交集「黃國昌」原為 769 筆，排除兩則與本議題無關的貼文（Threads 網友談楊鉯婷保證金的貼文 83 筆、林國漳支持者社團「抗議啦」貼文 8 筆）後為 678 筆（67 串）；兩者合併去重 1,382 筆。", "<b>好感度（立場判讀）：<\/b>逐筆閱讀主文與留言，判斷「對林國漳」的立場（支持／中性／批評），相同文字判讀一次後套用到所有複本。只支持吳宗憲、稱讚影片、泛罵民進黨但未針對林國漳者判為中性；沒有文字內容的留言（貼圖、圖片）判為中性。不採用系統依用詞判定的情緒。", "<b>黃國昌貼文留言分類：<\/b>分析黃國昌三篇貼文（11/23 臉書、11/24 臉書、11/24 Threads；11/23 Threads 版只有 1 則留言未列入）。每則留言只歸一類：噴林國漳（含針對宜蘭土地議題罵新潮流）、肯定黃國昌、噴黃國昌（含民眾黨、柯文哲）、挺林國漳、噴民進黨／綠營（未點名林國漳）、其他。同時肯定黃國昌又批評林國漳者歸「噴林國漳」。這些留言對林國漳的立場依分類換算：噴林國漳、肯定黃國昌為批評；噴黃國昌、挺林國漳為支持；其餘為中性。", "<b>話題類聚：<\/b>依討論串主文以關鍵字規則分類；討論度＝40%×聲量占比＋35%×互動占比＋25%×留言占比。互動、留言數取自主文的系統值（臉書 Reels 互動數系統未提供，顯示為 0）。", "<b>限制：<\/b>系統只提供每則內容前 400 字；Threads 留言多為無文字貼圖無法判讀；立場由人工與 AI 輔助逐筆判讀，邊界案例（反諷、反串）可能有少數誤差。上期林國漳整體 P/N 為不同期間（10/31–11/06），僅供對照。"], "hk": [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一", "ch": "立法委員 黃國昌", "d": "11-23 09:21", "ic": 6922, "n": 443, "empty": 1, "cnt": {"A": 33, "B": 226, "C": 58, "D": 5, "E": 49, "O": 72}, "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "ex": {"A": [["心疼阿北 11/28號懇請您出門投票🗳️ 你的選票，能成爲最有力的后盾。 唯有靠這次1128選", 1], ["覺得有問題 收集證據啊 就像游淑惠 鐘小平告發柯P 宜蘭的陳婉惠告發林姿妙 正義使者是不需要合不", 1], ["感謝國昌老師提供資訊判別，但現在社群演算法的擴散有限，希望可以發新聞稿+舉發提告，讓大家知道正義", 1], ["支持國昌檢舉告發！你、吳宗憲和翁曉玲在違憲上也有革命情感，好兄弟、好交情、連結甚深也很適合你們三", 1], ["勇敢．小草 🔥 挺 阿 伯 🔥 1128🔥推倒不讓阿伯奔喪的🔥綠色恐怖🔥", 1]], "B": [["柯文哲圖利京華城，李文宗李文娟端木正都認罪，你剩什麼。因得權力而腐敗貪污圖利是柯文哲當市長期間最", 2], ["所以國昌老師甚麼時候要揭基泰大直案，居民等好久等不到正義😫", 2], ["黃國昌旗下四大金釵之一，現在要選桃園龜山區市議員的周曉芸，她年初因為想選議員但沒錢，後來經過黑道", 1], ["好山好水的民主中華民國台灣，而貴黨跪舔中國金流來破壞，可憐啊！ - - -（引自四叉貓） 【導讀", 1], ["【根據周曉芸起訴書。金流】第２、４頁 周曉芸在陳瑞芳（四海幫高層）的餐會結識兩位中國官員， 周曉", 1]], "C": [["新潮流真的把宜蘭當自家後花園在逛", 2], ["拒絕新潮流炒地集團入主宜蘭", 2], ["亞別建設董事長投資20萬，林國漳投資250萬，光最近礁溪一個建案銷售進帳約8億！ 參選縣長的「林", 1], ["假公益之名真圖利特定財團！宜蘭曾經是民主聖地，如今卻被貪瀆政客們踐踏無遺！人生不過百年，貪權逐利", 1], ["真正看到炒房的高手！從房價、地皮到建築！集團看樣子打通關從地方到中央呀⋯然後一堆青鳥支持者在喊買", 1]], "D": [["有一種叫做資本淨值的東西，也就是說投資金額到底拿到多少股權，以報表上的每股凈值作為基礎，並不是用", 1], ["炒地就和炒股票一樣！正常買賣股票賺錢和靠內線不當操縱股票是不一樣的。", 1], ["😂看兩個候選人房產誰比較多就知道誰比較會炒", 1], ["好山好水的宜蘭是民進黨守護出來的。", 1], ["這樣的抹黑 真的都沒關係？😑", 1]], "E": [["總結：這都是貪腐綠圾詐騙共匪的陰謀，大家千萬絕對不要中計！！！～藍白衹要團結一心合作無間對抗貪腐", 1], ["新潮毒瘤總是揮舞著“Team Taiwan”的大纛 彷彿只有新潮能挺，其他都不能 Team Ta", 1], ["2026/11/23，週一透早，7點多，開電視寰宇新聞，看到民進黨新潮流，又在故意賣慘，哭哭啼啼", 1], ["姣草們: 阿青鳥馬上就來🤤🤤🤤🤤~ 地檢署依照反滲透法起訴 黃國昌愛將-周曉芸涉嫌指示江", 1], ["哎，我台灣人，支持民進黨做一個稱職的在野黨。 https://youtu.be/Ib_Dhcx-", 1]]}}, {"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後", "ch": "立法委員 黃國昌", "d": "11-24 12:31", "ic": 1294, "n": 98, "empty": 0, "cnt": {"A": 3, "B": 46, "C": 7, "D": 2, "E": 31, "O": 9}, "url": "https://www.facebook.com/547869790030092/posts/1723147242502335", "ex": {"A": [["目前黃國昌的爆料還沒有半件是假的...？", 1], ["國昌主席 加油‼️ 👏👏👏", 1], ["國昌老師加油！💪💪💪", 1]], "B": [["【人格高下立判，這就是差距】☺️ 柯文哲： 「投給沈伯洋是頭殼壞掉。」 「沈伯洋不敢來找我請益，", 1], ["黃國昌你的愛徒四大金差到處參選的周曉芸，有四海幫幫他牽線到大陸覲見中共官員並每個月接受30萬元金", 1], ["告你意圖使他不當選 用黨檢媒 直接把你手機扣留 電腦跟小編全帶走 先定是你是主謀 然後找機會栽贓", 1], ["[老馬聊聊] 中共每月30萬養參選人，黃國昌到底知道多少？ | 馬一峰 https://www.", 1], ["聽我ㄧ言 你要當黨檢媒ㄧ體半夜來押你跟小編 手機 電腦 你要有持續攻擊的行動 文宣 或證據 人證", 1]], "C": [["昨天我看了國昌寫的資料，就能了解鳳凰集團在宜蘭購買市公所的土地是民進黨江蔥淵當市長任內事情，當時", 1], ["請問林國成是要告什麼？林國成終於有所回應，林國成難道沒有替江聰淵的主任秘書楊秀川涉貪辯護？林國成", 1], ["這是他參選以來的習慣， \"喊告\"\"是奧步\"\"拖~\"", 1], ["還真的欸 每次民進黨的人都會告 ，然後輸了", 1], ["又在濫訴遮醜了..黨標準的sop🤣", 1]], "D": [["律師不能辯護嗎？阿北貪污沒請律師嗎？", 1], ["管人家告什麼？又不是告你⋯⋯", 1]], "E": [["別瞎扯了， 綠蠅整天也抗中保台， 說核電廠會被攻擊， 馬時期是停核再研議， 綠蠅是趁機廢核， 搞", 2], ["青鳥急了！不斷造謠為了領錢， 快！剩不到四天了，加油👏😆", 2], ["都Google可查得到， 洗錢2000億的涂誠文跑了、 洗錢200億的郭哲敏跑了、 洗錢百億的賭", 1], ["民進黨索賄直接涉及「索賄／收賄」的金額 • 陳明澤（民進黨籍高雄市議員）：據公視新聞與鏡報新聞報", 1], ["• 無人機標案與裁罰：有媒體報導指出，沈伯洋造勢活動演出的無人機關聯廠商「台灣希望創新」，過去曾", 1]]}}, {"title": "請問林國漳是要告什麼？躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加", "ch": "threads下關鍵字", "d": "11-24 12:31", "ic": 1457, "n": 66, "empty": 61, "cnt": {"A": 0, "B": 2, "C": 1, "D": 0, "E": 0, "O": 63}, "url": "https://www.threads.com/@huang.guochang/post/DgHGm0dkocU", "ex": {"A": [], "B": [["你自己也是律師，律師本的工作其中一大項目就是訴訟，原告、被告刑民各種案件都有，照你這邏輯，律師幫", 1], ["老師 順便評論一下小雲姊 跟乃力姊 你違憲都可以當立法委員了 但憑你還真的無法選市長哈哈哈哈", 1]], "C": [["需要聲量時就提告，需要交代時就沉默。 民進黨慣用手法之一🤡", 1]], "D": [], "E": []}}], "c": {"亞別": {"tot": 1270, "daily": [201, 97, 50, 91, 70, 551, 210], "dst": [[22, 173, 6], [14, 72, 11], [3, 43, 4], [1, 84, 6], [2, 65, 3], [255, 180, 116], [71, 117, 22]], "cat": {"社群": 1159, "新聞": 34, "threads": 74, "論壇": 2, "影音": 1}, "channels": [["立法委員 黃國昌", 543, 279, 161, 103], ["吳宗憲", 415, 20, 385, 10], ["宜蘭新聞網", 112, 45, 59, 8], ["threads下關鍵字", 74, 2, 64, 8], ["我是宜蘭人", 34, 12, 16, 6], ["宜蘭大小事", 24, 10, 12, 2], ["Z9 的看板", 9, 0, 5, 4], ["自由時報電子報_今日即時新聞_地方新聞總覽", 6, 0, 6, 0], ["自由時報電子報_今日即時新聞_政治新聞總覽", 6, 0, 6, 0], ["台灣新生報_新聞", 5, 0, 5, 0]], "sen": [368, 734, 168], "peaks": [[{"title": "【James第二部曲《問A答B》上線！直球拷問林國漳建設公司投資與利益迴避】 昨天我們推出了", "url": "https://www.facebook.com/reel/1683779090029481/", "dayVol": 178, "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避"}, {"title": "轉貼自: 葛瑪蘭新聞網 轉貼內容: 【吳宗憲AI饒舌歌手再出新曲《問A答B》～五大提問緊咬林", "url": "https://www.facebook.com/groups/1448823102089319/posts/4165286860442916", "dayVol": 5, "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避"}], [{"title": "【James第二部曲《問A答B》上線！直球拷問林國漳建設公司投資與利益迴避】 昨天我們推出了", "url": "https://www.facebook.com/reel/1683779090029481/", "dayVol": 37, "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避"}, {"title": "宜蘭縣長政見會變火烤大會？「五問促道歉」對上「實體大富翁」，雙方火力全開！ 這年頭看政見發表", "url": "https://www.facebook.com/627102856120826/posts/1608389517992150", "dayVol": 22, "topic": "政見會攻防：辯論、利益迴避、楊鉯婷"}], [{"title": "【James第二部曲《問A答B》上線！直球拷問林國漳建設公司投資與利益迴避】 昨天我們推出了", "url": "https://www.facebook.com/reel/1683779090029481/", "dayVol": 46, "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避"}, {"title": "林國漳與吳宗憲2人激烈攻防 宜蘭縣長選舉首次電視政見會煙硝味十足！ 轉貼自: 蘭城新聞網 轉", "url": "https://www.facebook.com/groups/1448823102089319/posts/4165761207062148", "dayVol": 3, "topic": "政見會攻防：辯論、利益迴避、楊鉯婷"}], [{"title": "【James第二部曲《問A答B》上線！直球拷問林國漳建設公司投資與利益迴避】 昨天我們推出了", "url": "https://www.facebook.com/reel/1683779090029481/", "dayVol": 82, "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避"}, {"title": "宜蘭縣長政見會激辯！林國漳、吳宗憲互槓建設、紅錢與綠能", "url": "https://news.ltn.com.tw/news/politics/breakingnews/5648779", "dayVol": 1, "topic": "政見會攻防：辯論、利益迴避、楊鉯婷"}], [{"title": "【James第二部曲《問A答B》上線！直球拷問林國漳建設公司投資與利益迴避】 昨天我們推出了", "url": "https://www.facebook.com/reel/1683779090029481/", "dayVol": 60, "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避"}, {"title": "黃金星期天，吳宗憲喊宜蘭不要第二個「林百億」 現場鄭麗文、...", "url": "https://www.facebook.com/451714976964816/posts/1733300968806204", "dayVol": 5, "topic": "吳宗憲造勢：「宜蘭不要林百億」"}], [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "dayVol": 406, "topic": "黃國昌指控：「新潮流炒地集團」"}, {"title": "黃金星期天，吳宗憲喊宜蘭不要第二個「林百億」 現場鄭麗文、...", "url": "https://www.facebook.com/451714976964816/posts/1733300968806204", "dayVol": 107, "topic": "吳宗憲造勢：「宜蘭不要林百億」"}], [{"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律", "url": "https://www.facebook.com/547869790030092/posts/1723147242502335", "dayVol": 99, "topic": "黃國昌追擊：「林國漳是要告什麼？」"}, {"title": "請問林國漳是要告什麼？躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律師", "url": "https://www.threads.com/@huang.guochang/post/DgHGm0dkocU", "dayVol": 67, "topic": "黃國昌追擊：「林國漳是要告什麼？」"}]], "topics": [{"t": "黃國昌指控：「新潮流炒地集團」", "sc": 50.2, "v": 463, "i": 6975, "cc": 459, "p": 231, "neu": 123, "ng": 109, "d": [0, 0, 0, 0, 0, 424, 39], "top": [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "ch": "立法委員 黃國昌", "vol": 444, "ic": 6922, "url": "https://www.facebook.com/547869790030092/posts/1721952912621768"}, {"title": "#新潮流就是金潮流！以下轉貼自黃國昌： 拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，", "ch": "千錯萬錯，柯神不會有錯！爹親娘親，不如小英主席親！", "vol": 2, "ic": 20, "url": "https://www.facebook.com/296884049346030/posts/1169947122039714"}, {"title": "【要林國漳交代「賺多少錢」民眾黨：拒絕新潮流炒地集團入主宜蘭...", "ch": "中時即影音", "vol": 2, "ic": 6, "url": "https://www.facebook.com/652054073607086/posts/1601493445329806"}]}, {"t": "黃國昌追擊：「林國漳是要告什麼？」", "sc": 18.9, "v": 166, "i": 2751, "cc": 167, "p": 50, "neu": 103, "ng": 13, "d": [0, 0, 0, 0, 0, 0, 166], "top": [{"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律", "ch": "立法委員 黃國昌", "vol": 99, "ic": 1294, "url": "https://www.facebook.com/547869790030092/posts/1723147242502335"}, {"title": "請問林國漳是要告什麼？躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律師", "ch": "threads下關鍵字", "vol": 67, "ic": 1457, "url": "https://www.threads.com/@huang.guochang/post/DgHGm0dkocU"}]}, {"t": "吳宗憲 AI 饒舌 James：建商投資與利益迴避", "sc": 14.1, "v": 432, "i": 37, "cc": 11, "p": 23, "neu": 391, "ng": 18, "d": [184, 41, 47, 88, 60, 12, 0], "top": [{"title": "【James第二部曲《問A答B》上線！直球拷問林國漳建設公司投資與利益迴避】 昨天我們推出了", "ch": "吳宗憲", "vol": 415, "ic": 0, "url": "https://www.facebook.com/reel/1683779090029481/"}, {"title": "轉貼自: 葛瑪蘭新聞網 轉貼內容: 【吳宗憲AI饒舌歌手再出新曲《問A答B》～五大提問緊咬林", "ch": "宜蘭大小事", "vol": 9, "ic": 25, "url": "https://www.facebook.com/groups/1448823102089319/posts/4165286860442916"}, {"title": "吳宗憲變可愛～第二彈😄😄 轉貼自: 吳宗憲 轉貼內容: 【James第二部曲《問A答B》", "ch": "中華民國政治網戰俱樂部", "vol": 1, "ic": 5, "url": "https://www.facebook.com/groups/922498568812542/posts/1766792661049791"}]}, {"t": "吳宗憲造勢：「宜蘭不要林百億」", "sc": 10, "v": 115, "i": 959, "cc": 112, "p": 45, "neu": 62, "ng": 8, "d": [0, 0, 0, 0, 7, 107, 1], "top": [{"title": "黃金星期天，吳宗憲喊宜蘭不要第二個「林百億」 現場鄭麗文、...", "ch": "宜蘭新聞網", "vol": 112, "ic": 959, "url": "https://www.facebook.com/451714976964816/posts/1733300968806204"}, {"title": "吳宗憲領軍在野宜蘭隊大會師，黃金星期天1.2萬鄉親擠爆會場！...", "ch": "台灣新生報_新聞", "vol": 1, "ic": 0, "url": "http://www.tssdnews.com.tw/?FID=64&CID=906474"}, {"title": "吳宗憲選前造勢喊「宜蘭走新路」 林姿妙未現身引發外界聯想", "ch": "自由時報電子報_今日即時新聞_地方新聞總覽", "vol": 1, "ic": 0, "url": "https://news.ltn.com.tw/news/Yilan/breakingnews/5649802"}]}, {"t": "政見會攻防：辯論、利益迴避、楊鉯婷", "sc": 6, "v": 82, "i": 290, "cc": 85, "p": 19, "neu": 52, "ng": 11, "d": [15, 56, 3, 3, 3, 0, 2], "top": [{"title": "宜蘭縣長政見會變火烤大會？「五問促道歉」對上「實體大富翁」，雙方火力全開！ 這年頭看政見發表", "ch": "我是宜蘭人", "vol": 23, "ic": 32, "url": "https://www.facebook.com/627102856120826/posts/1608389517992150"}, {"title": "-- 楊鉯婷110年車禍求助無門，曾請求安排公益律師諮詢，遭冷漠對待，她今天在政見會多次問林", "ch": "Z9 的看板", "vol": 9, "ic": 182, "url": "https://www.facebook.com/487406046727651/posts/1813318750803034"}, {"title": "林國漳與吳宗憲2人激烈攻防 宜蘭縣長選舉首次電視政見會煙硝味十足！ 轉貼自: 蘭城新聞網 轉", "ch": "宜蘭大小事", "vol": 15, "ic": 42, "url": "https://www.facebook.com/groups/1448823102089319/posts/4165761207062148"}]}, {"t": "其他", "sc": 0.6, "v": 8, "i": 99, "cc": 1, "p": 0, "neu": 3, "ng": 5, "d": [2, 0, 0, 0, 0, 6, 0], "top": [{"title": "最近看到林國璋有一位以前的宜蘭縣議員PO出來的文章寫得很詳細有關於他建設公司的問題我現在就讓", "ch": "threads下關鍵字", "vol": 1, "ic": 49, "url": "https://www.threads.com/@shen19630906/post/DgDUGnCmMBM"}, {"title": "【洪淑芬報新聞】 藍白控綠\"權貴\"大門 新北.基.宜爭議連爆...", "ch": "中天電視", "vol": 1, "ic": 42, "url": "https://www.youtube.com/watch?v=yX_YdJz7Qwc"}, {"title": "今天我看到一個臉書有關於林國璋的房地產投資案 「宜蘭製造」，四個字喊得響亮，聽起來充滿土地情", "ch": "threads下關鍵字", "vol": 2, "ic": 8, "url": "https://www.threads.com/@shen19630906/post/DgDP4wAmAlV"}]}, {"t": "林國漳回應：抹黑合法投資、將提告", "sc": 0.2, "v": 2, "i": 5, "cc": 3, "p": 0, "neu": 0, "ng": 2, "d": [0, 0, 0, 0, 0, 0, 2], "top": [{"title": "【林國漳捲入建案投資爭議！才宣布提告 又遭質疑農地使用】 民...", "ch": "中時即影音", "vol": 2, "ic": 5, "url": "https://www.facebook.com/652054073607086/posts/1602722431873574"}]}, {"t": "政論節目與全國政治（其他）", "sc": 0.1, "v": 2, "i": 0, "cc": 0, "p": 0, "neu": 0, "ng": 2, "d": [0, 0, 0, 0, 0, 2, 0], "top": [{"title": "讓新世代扛起新時代，支持① 童子瑋找回基隆的榮光！ 今晚，我和蔡總統從桃園再到基隆國門廣場，", "ch": "賴清德", "vol": 1, "ic": 0, "url": "https://www.facebook.com/527509135411535/posts/1704111437751293"}, {"title": "今晚來到基隆，和 賴清德總統一起為 童子瑋加油！ 童子瑋這次參選，提出「生活市長」的理念。他", "ch": "蔡英文 Tsai Ing-wen", "vol": 1, "ic": 0, "url": "https://www.facebook.com/530084301802156/posts/1715187096625198"}]}], "topI": [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "ch": "立法委員 黃國昌", "cat": "社群", "date": "11-23 09:21", "vol": 444, "ic": 6922, "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "請問林國漳是要告什麼？躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律師", "ch": "threads下關鍵字", "cat": "threads", "date": "11-24 12:31", "vol": 67, "ic": 1457, "url": "https://www.threads.com/@huang.guochang/post/DgHGm0dkocU", "topic": "黃國昌追擊：「林國漳是要告什麼？」", "st": "-"}, {"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律", "ch": "立法委員 黃國昌", "cat": "社群", "date": "11-24 12:31", "vol": 99, "ic": 1294, "url": "https://www.facebook.com/547869790030092/posts/1723147242502335", "topic": "黃國昌追擊：「林國漳是要告什麼？」", "st": "-"}, {"title": "黃金星期天，吳宗憲喊宜蘭不要第二個「林百億」 現場鄭麗文、...", "ch": "宜蘭新聞網", "cat": "社群", "date": "11-22 23:50", "vol": 112, "ic": 959, "url": "https://www.facebook.com/451714976964816/posts/1733300968806204", "topic": "吳宗憲造勢：「宜蘭不要林百億」", "st": "-"}, {"title": "-- 楊鉯婷110年車禍求助無門，曾請求安排公益律師諮詢，遭冷漠對待，她今天在政見會多次問林", "ch": "Z9 的看板", "cat": "社群", "date": "11-19 11:21", "vol": 9, "ic": 182, "url": "https://www.facebook.com/487406046727651/posts/1813318750803034", "topic": "政見會攻防：辯論、利益迴避、楊鉯婷", "st": "-"}, {"title": "最近看到林國璋有一位以前的宜蘭縣議員PO出來的文章寫得很詳細有關於他建設公司的問題我現在就讓", "ch": "threads下關鍵字", "cat": "threads", "date": "11-23 01:12", "vol": 1, "ic": 49, "url": "https://www.threads.com/@shen19630906/post/DgDUGnCmMBM", "topic": "其他", "st": "-"}, {"title": "林國漳與吳宗憲2人激烈攻防 宜蘭縣長選舉首次電視政見會煙硝味十足！ 轉貼自: 蘭城新聞網 轉", "ch": "宜蘭大小事", "cat": "社群", "date": "11-18 22:25", "vol": 15, "ic": 42, "url": "https://www.facebook.com/groups/1448823102089319/posts/4165761207062148", "topic": "政見會攻防：辯論、利益迴避、楊鉯婷", "st": "0"}, {"title": "【洪淑芬報新聞】 藍白控綠\"權貴\"大門 新北.基.宜爭議連爆...", "ch": "中天電視", "cat": "影音", "date": "11-18 13:29", "vol": 1, "ic": 42, "url": "https://www.youtube.com/watch?v=yX_YdJz7Qwc", "topic": "其他", "st": "0"}, {"title": "宜蘭縣長政見會變火烤大會？「五問促道歉」對上「實體大富翁」，雙方火力全開！ 這年頭看政見發表", "ch": "我是宜蘭人", "cat": "社群", "date": "11-19 06:24", "vol": 23, "ic": 32, "url": "https://www.facebook.com/627102856120826/posts/1608389517992150", "topic": "政見會攻防：辯論、利益迴避、楊鉯婷", "st": "0"}, {"title": "轉貼自: 葛瑪蘭新聞網 轉貼內容: 【吳宗憲AI饒舌歌手再出新曲《問A答B》～五大提問緊咬林", "ch": "宜蘭大小事", "cat": "社群", "date": "11-18 12:10", "vol": 9, "ic": 25, "url": "https://www.facebook.com/groups/1448823102089319/posts/4165286860442916", "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避", "st": "-"}], "posT": [], "negT": [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "ch": "立法委員 黃國昌", "cat": "社群", "date": "11-23 09:21", "vol": 444, "ic": 6922, "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "請問林國漳是要告什麼？躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律師", "ch": "threads下關鍵字", "cat": "threads", "date": "11-24 12:31", "vol": 67, "ic": 1457, "url": "https://www.threads.com/@huang.guochang/post/DgHGm0dkocU", "topic": "黃國昌追擊：「林國漳是要告什麼？」", "st": "-"}, {"title": "黃金星期天，吳宗憲喊宜蘭不要第二個「林百億」 現場鄭麗文、...", "ch": "宜蘭新聞網", "cat": "社群", "date": "11-22 23:50", "vol": 112, "ic": 959, "url": "https://www.facebook.com/451714976964816/posts/1733300968806204", "topic": "吳宗憲造勢：「宜蘭不要林百億」", "st": "-"}, {"title": "-- 楊鉯婷110年車禍求助無門，曾請求安排公益律師諮詢，遭冷漠對待，她今天在政見會多次問林", "ch": "Z9 的看板", "cat": "社群", "date": "11-19 11:21", "vol": 9, "ic": 182, "url": "https://www.facebook.com/487406046727651/posts/1813318750803034", "topic": "政見會攻防：辯論、利益迴避、楊鉯婷", "st": "-"}, {"title": "最近看到林國璋有一位以前的宜蘭縣議員PO出來的文章寫得很詳細有關於他建設公司的問題我現在就讓", "ch": "threads下關鍵字", "cat": "threads", "date": "11-23 01:12", "vol": 1, "ic": 49, "url": "https://www.threads.com/@shen19630906/post/DgDUGnCmMBM", "topic": "其他", "st": "-"}, {"title": "轉貼自: 葛瑪蘭新聞網 轉貼內容: 【吳宗憲AI饒舌歌手再出新曲《問A答B》～五大提問緊咬林", "ch": "宜蘭大小事", "cat": "社群", "date": "11-18 12:10", "vol": 9, "ic": 25, "url": "https://www.facebook.com/groups/1448823102089319/posts/4165286860442916", "topic": "吳宗憲 AI 饒舌 James：建商投資與利益迴避", "st": "-"}, {"title": "#新潮流就是金潮流！以下轉貼自黃國昌： 拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，", "ch": "千錯萬錯，柯神不會有錯！爹親娘親，不如小英主席親！", "cat": "社群", "date": "11-23 09:33", "vol": 2, "ic": 20, "url": "https://www.facebook.com/296884049346030/posts/1169947122039714", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "陳定南在2006年11月5日辭世 至今已20年 那年出生 在投票日前年滿20歲的民眾 在今年", "ch": "柯文哲粉絲後援會", "cat": "社群", "date": "11-23 11:31", "vol": 1, "ic": 15, "url": "https://www.facebook.com/groups/1995820070731826/posts/4616470718666735", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "[新聞] 公益律師變新潮流代言人？黃國昌揭林國漳與林錫耀家族合資建", "ch": "PTT_Gossiping", "cat": "論壇", "date": "11-23 12:31", "vol": 1, "ic": 12, "url": "https://www.ptt.cc/bbs/Gossiping/M.1795408286.A.821.html", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "今天我看到一個臉書有關於林國璋的房地產投資案 「宜蘭製造」，四個字喊得響亮，聽起來充滿土地情", "ch": "threads下關鍵字", "cat": "threads", "date": "11-23 00:35", "vol": 2, "ic": 8, "url": "https://www.threads.com/@shen19630906/post/DgDP4wAmAlV", "topic": "其他", "st": "-"}]}, "黃國昌": {"tot": 678, "daily": [11, 0, 11, 4, 15, 473, 164], "dst": [[0, 11, 0], [0, 0, 0], [0, 6, 5], [1, 3, 0], [0, 15, 0], [220, 135, 118], [68, 68, 28]], "cat": {"新聞": 32, "社群": 606, "影音": 9, "threads": 19, "論壇": 12}, "channels": [["立法委員 黃國昌", 543, 279, 161, 103], ["風傳媒", 23, 6, 10, 7], ["threads下關鍵字", 19, 1, 11, 7], ["PTT_Gossiping", 12, 2, 6, 4], ["歷史哥澄清唬", 12, 0, 12, 0], ["大政治大爆卦", 6, 0, 6, 0], ["中時即影音", 4, 0, 0, 4], ["陳琬惠", 4, 0, 0, 4], ["大台灣新聞網_宜蘭新聞網", 3, 0, 0, 3]], "sen": [289, 238, 151], "peaks": [[{"title": "「救台大行動」第十一場宜蘭頭城集結圓滿落幕 吳宗憲提「台灣瑞士」願景 再邀林國漳公開辯論 由", "url": "https://www.facebook.com/646771533474489/posts/1695336748617957", "dayVol": 9, "topic": "政見會攻防：辯論、利益迴避、楊鉯婷"}, {"title": "昨晚來到宜蘭出席「救台大行動」，選舉剩十幾天而已，已經進入倒數計時的關鍵時刻，本黨宜蘭縣長候", "url": "https://www.facebook.com/531157005039693/posts/1671315631023819", "dayVol": 1, "topic": "其他"}], [], [{"title": "期盼宜蘭鄉親給民眾黨服務的機會 11/28請把對我的疼惜 支持民眾黨提名的候選人們 宜蘭縣議", "url": "https://www.facebook.com/435444951915158/posts/1782907630502210", "dayVol": 4, "topic": "其他"}], [{"title": "「救台大行動」第十一場宜蘭頭城集結圓滿落幕 吳宗憲提「台灣瑞士」願景 再邀林國漳公開辯論 由", "url": "https://www.facebook.com/646771533474489/posts/1695336748617957", "dayVol": 2, "topic": "政見會攻防：辯論、利益迴避、楊鉯婷"}], [{"title": "【#大新聞大爆卦 下】沈蘇造勢喊破40萬人灌水灌過頭?董智森看這幕驚爆綠大江東去完了 完整版", "url": "https://www.youtube.com/watch?v=2JC5O_O511Q", "dayVol": 1, "topic": "政論節目與全國政治（其他）"}], [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "dayVol": 406, "topic": "黃國昌指控：「新潮流炒地集團」"}, {"title": "好山好水的宜蘭，近年竟傳出被炒地集團盯上？候選人的財產申報掀...", "url": "https://www.facebook.com/317560623929512/posts/1231457102539855", "dayVol": 21, "topic": "黃國昌指控：「新潮流炒地集團」"}], [{"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律", "url": "https://www.facebook.com/547869790030092/posts/1723147242502335", "dayVol": 99, "topic": "黃國昌追擊：「林國漳是要告什麼？」"}, {"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "dayVol": 38, "topic": "黃國昌指控：「新潮流炒地集團」"}]], "topics": [{"t": "黃國昌指控：「新潮流炒地集團」", "sc": 57.8, "v": 521, "i": 7766, "cc": 501, "p": 240, "neu": 150, "ng": 131, "d": [0, 0, 0, 0, 0, 467, 54], "top": [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "ch": "立法委員 黃國昌", "vol": 444, "ic": 6922, "url": "https://www.facebook.com/547869790030092/posts/1721952912621768"}, {"title": "聽完黃國昌解釋宜蘭林國漳原來也是新潮流一份子也是宜蘭炒地利益集團的一份子...這人如果當宜蘭", "ch": "threads下關鍵字", "vol": 18, "ic": 683, "url": "https://www.threads.com/@ilikejapanall/post/DgFb89vFNH7"}, {"title": "好山好水的宜蘭，近年竟傳出被炒地集團盯上？候選人的財產申報掀...", "ch": "風傳媒", "vol": 23, "ic": 106, "url": "https://www.facebook.com/317560623929512/posts/1231457102539855"}]}, {"t": "政論節目與全國政治（其他）", "sc": 28.7, "v": 13, "i": 9889, "cc": 382, "p": 0, "neu": 10, "ng": 3, "d": [0, 0, 3, 0, 6, 2, 2], "top": [{"title": "【#大新聞大爆卦】柯文哲預言蔣萬安會贏酸爆洋流幻象!沈伯洋蹭黃珊珊公務員慘蹁鐵板! 壓垮綠最", "ch": "大政治大爆卦", "vol": 1, "ic": 5857, "url": "https://www.youtube.com/watch?v=pONVyzMwcF4"}, {"title": "【#大新聞大爆卦 下】沈蘇造勢喊破40萬人灌水灌過頭?董智森看這幕驚爆綠大江東去完了 完整版", "ch": "大政治大爆卦", "vol": 1, "ic": 2922, "url": "https://www.youtube.com/watch?v=2JC5O_O511Q"}, {"title": "【#大新聞大爆卦 中】沈伯洋踢鐵板公務員跳出來轟爆綠!殷瑋不間斷xxx秒轟撲馬千瘡百孔!管中", "ch": "大政治大爆卦", "vol": 1, "ic": 418, "url": "https://www.youtube.com/watch?v=SzOu2aFXQ4M"}]}, {"t": "黃國昌追擊：「林國漳是要告什麼？」", "sc": 10.8, "v": 99, "i": 1294, "cc": 101, "p": 48, "neu": 40, "ng": 11, "d": [0, 0, 0, 0, 0, 0, 99], "top": [{"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律", "ch": "立法委員 黃國昌", "vol": 99, "ic": 1294, "url": "https://www.facebook.com/547869790030092/posts/1723147242502335"}]}, {"t": "其他", "sc": 0.9, "v": 15, "i": 7, "cc": 0, "p": 1, "neu": 10, "ng": 4, "d": [2, 0, 7, 2, 0, 2, 2], "top": [{"title": "期盼宜蘭鄉親給民眾黨服務的機會 11/28請把對我的疼惜 支持民眾黨提名的候選人們 宜蘭縣議", "ch": "陳琬惠", "vol": 4, "ic": 0, "url": "https://www.facebook.com/435444951915158/posts/1782907630502210"}, {"title": "林國漳力拚宜蘭變綠地！ 【林國漳口號「全民縣長」 賴總統喊...", "ch": "鏡新聞", "vol": 2, "ic": 0, "url": "https://www.facebook.com/reel/1827678611997687/"}, {"title": "轉貼自: 三立iNEWS 轉貼內容: #有邊唸編 ：阿川嗆藍白自食惡果！ ▌【#原音重現】王", "ch": "宜蘭縣長參選人-林國漳", "vol": 1, "ic": 6, "url": "https://www.facebook.com/groups/1395854034383612/posts/2064574250844917"}]}, {"t": "政見會攻防：辯論、利益迴避、楊鉯婷", "sc": 0.7, "v": 12, "i": 0, "cc": 0, "p": 0, "neu": 12, "ng": 0, "d": [9, 0, 1, 2, 0, 0, 0], "top": [{"title": "「救台大行動」第十一場宜蘭頭城集結圓滿落幕 吳宗憲提「台灣瑞士」願景 再邀林國漳公開辯論 由", "ch": "歷史哥澄清唬", "vol": 12, "ic": 0, "url": "https://www.facebook.com/646771533474489/posts/1695336748617957"}]}, {"t": "吳宗憲造勢：「宜蘭不要林百億」", "sc": 0.6, "v": 11, "i": 0, "cc": 0, "p": 0, "neu": 11, "ng": 0, "d": [0, 0, 0, 0, 9, 2, 0], "top": [{"title": "今天是選前黃金星期天，馬上就是決戰的投票，11月28日我們就知道宜蘭會不會被新潮流沒收。 宜", "ch": "鄭麗文", "vol": 2, "ic": 0, "url": "https://www.facebook.com/531157005039693/posts/1676788087143240"}, {"title": "柯式論證先講結論 柯文哲提三大層面籲11月28日票投吳宗憲", "ch": "yamNews蕃薯藤_全部新聞", "vol": 1, "ic": 0, "url": "https://n.yam.com/Article/20261122955080"}]}, {"t": "林國漳回應：抹黑合法投資、將提告", "sc": 0.5, "v": 7, "i": 5, "cc": 3, "p": 0, "neu": 5, "ng": 2, "d": [0, 0, 0, 0, 0, 0, 7], "top": [{"title": "【林國漳捲入建案投資爭議！才宣布提告 又遭質疑農地使用】 民...", "ch": "中時即影音", "vol": 2, "ic": 5, "url": "https://www.facebook.com/652054073607086/posts/1602722431873574"}, {"title": "遭民眾黨質疑在宜蘭炒地 林國漳：抹黑合法投資將提告", "ch": "公視新聞網_最新新聞", "vol": 1, "ic": 0, "url": "https://news.pts.org.tw/article/837102"}, {"title": "遭黃國昌指掛勾炒地皮集團? 林國漳駁斥:真愛玩連連看－民視新...", "ch": "民視新聞網 Formosa TV News network", "vol": 1, "ic": 0, "url": "https://www.youtube.com/watch?v=gKT_BCaUyZE"}]}], "topI": [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "ch": "立法委員 黃國昌", "cat": "社群", "date": "11-23 09:21", "vol": 444, "ic": 6922, "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "【#大新聞大爆卦】柯文哲預言蔣萬安會贏酸爆洋流幻象!沈伯洋蹭黃珊珊公務員慘蹁鐵板! 壓垮綠最", "ch": "大政治大爆卦", "cat": "影音", "date": "11-22 16:05", "vol": 1, "ic": 5857, "url": "https://www.youtube.com/watch?v=pONVyzMwcF4", "topic": "政論節目與全國政治（其他）", "st": "0"}, {"title": "【#大新聞大爆卦 下】沈蘇造勢喊破40萬人灌水灌過頭?董智森看這幕驚爆綠大江東去完了 完整版", "ch": "大政治大爆卦", "cat": "影音", "date": "11-22 21:00", "vol": 1, "ic": 2922, "url": "https://www.youtube.com/watch?v=2JC5O_O511Q", "topic": "政論節目與全國政治（其他）", "st": "0"}, {"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律", "ch": "立法委員 黃國昌", "cat": "社群", "date": "11-24 12:31", "vol": 99, "ic": 1294, "url": "https://www.facebook.com/547869790030092/posts/1723147242502335", "topic": "黃國昌追擊：「林國漳是要告什麼？」", "st": "-"}, {"title": "聽完黃國昌解釋宜蘭林國漳原來也是新潮流一份子也是宜蘭炒地利益集團的一份子...這人如果當宜蘭", "ch": "threads下關鍵字", "cat": "threads", "date": "11-23 20:59", "vol": 18, "ic": 683, "url": "https://www.threads.com/@ilikejapanall/post/DgFb89vFNH7", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "【#大新聞大爆卦 中】沈伯洋踢鐵板公務員跳出來轟爆綠!殷瑋不間斷xxx秒轟撲馬千瘡百孔!管中", "ch": "大政治大爆卦", "cat": "影音", "date": "11-22 20:30", "vol": 1, "ic": 418, "url": "https://www.youtube.com/watch?v=SzOu2aFXQ4M", "topic": "政論節目與全國政治（其他）", "st": "0"}, {"title": "凌濤嗆1128送沈伯洋當英文老師了!韋淳祐爆連賴都挺不了蘇巧慧了?【#大新聞大爆卦 】精華版", "ch": "大政治大爆卦", "cat": "影音", "date": "11-22 16:43", "vol": 1, "ic": 312, "url": "https://www.youtube.com/watch?v=ps-yx9yymiY", "topic": "政論節目與全國政治（其他）", "st": "0"}, {"title": "【#大新聞大爆卦 上】藍白合大場面!柯文哲挺蔣萬安會贏轟洋流幻象!沈伯洋蹭黃珊珊搶小草票被打", "ch": "大政治大爆卦", "cat": "影音", "date": "11-22 20:00", "vol": 1, "ic": 219, "url": "https://www.youtube.com/watch?v=4w4gzj1eTwA", "topic": "政論節目與全國政治（其他）", "st": "0"}, {"title": "蘇巧慧沈伯洋造勢綠委喊打到死!?凌濤曝張善政好到讓綠沒話可說了!【#大新聞大爆卦 】精華版5", "ch": "大政治大爆卦", "cat": "影音", "date": "11-22 16:38", "vol": 1, "ic": 161, "url": "https://www.youtube.com/watch?v=YWEQWI5xTZQ", "topic": "政論節目與全國政治（其他）", "st": "0"}], "posT": [], "negT": [{"title": "拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，近年來成為獵地集團的首選之一，其中新潮流", "ch": "立法委員 黃國昌", "cat": "社群", "date": "11-23 09:21", "vol": 444, "ic": 6922, "url": "https://www.facebook.com/547869790030092/posts/1721952912621768", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "請問林國漳是要告什麼？ 躲了一整天，林國漳終於有所回應，先是稱不會隨之起舞，之後加碼要委由律", "ch": "立法委員 黃國昌", "cat": "社群", "date": "11-24 12:31", "vol": 99, "ic": 1294, "url": "https://www.facebook.com/547869790030092/posts/1723147242502335", "topic": "黃國昌追擊：「林國漳是要告什麼？」", "st": "-"}, {"title": "聽完黃國昌解釋宜蘭林國漳原來也是新潮流一份子也是宜蘭炒地利益集團的一份子...這人如果當宜蘭", "ch": "threads下關鍵字", "cat": "threads", "date": "11-23 20:59", "vol": 18, "ic": 683, "url": "https://www.threads.com/@ilikejapanall/post/DgFb89vFNH7", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "好山好水的宜蘭，近年竟傳出被炒地集團盯上？候選人的財產申報掀...", "ch": "風傳媒", "cat": "社群", "date": "11-23 15:30", "vol": 23, "ic": 106, "url": "https://www.facebook.com/317560623929512/posts/1231457102539855", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "#新潮流就是金潮流！以下轉貼自黃國昌： 拒絕新潮流炒地集團入主宜蘭 好山好水的民主聖地宜蘭，", "ch": "千錯萬錯，柯神不會有錯！爹親娘親，不如小英主席親！", "cat": "社群", "date": "11-23 09:33", "vol": 2, "ic": 20, "url": "https://www.facebook.com/296884049346030/posts/1169947122039714", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "陳定南在2006年11月5日辭世 至今已20年 那年出生 在投票日前年滿20歲的民眾 在今年", "ch": "柯文哲粉絲後援會", "cat": "社群", "date": "11-23 11:31", "vol": 1, "ic": 15, "url": "https://www.facebook.com/groups/1995820070731826/posts/4616470718666735", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "[新聞] 公益律師變新潮流代言人？黃國昌揭林國漳與林錫耀家族合資建", "ch": "PTT_Gossiping", "cat": "論壇", "date": "11-23 12:31", "vol": 12, "ic": 12, "url": "https://www.ptt.cc/bbs/Gossiping/M.1795408286.A.821.html", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "【要林國漳交代「賺多少錢」民眾黨：拒絕新潮流炒地集團入主宜蘭...", "ch": "中時即影音", "cat": "社群", "date": "11-23 11:53", "vol": 2, "ic": 6, "url": "https://www.facebook.com/652054073607086/posts/1601493445329806", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}, {"title": "【林國漳捲入建案投資爭議！才宣布提告 又遭質疑農地使用】 民...", "ch": "中時即影音", "cat": "社群", "date": "11-24 14:17", "vol": 2, "ic": 5, "url": "https://www.facebook.com/652054073607086/posts/1602722431873574", "topic": "林國漳回應：抹黑合法投資、將提告", "st": "-"}, {"title": "轉貼自: 風傳媒 轉貼內容: 好山好水的宜蘭，近年竟傳出被炒地集團盯上？候選人的財產申報掀出", "ch": "天怒人怨 官逼民反", "cat": "社群", "date": "11-23 22:01", "vol": 1, "ic": 2, "url": "https://www.facebook.com/groups/383160272107866/posts/2644867445937126", "topic": "黃國昌指控：「新潮流炒地集團」", "st": "-"}]}}};
+const C = ['亞別', '黃國昌'];
+const L = DATA.lbl;
+const COL = { '亞別': 'var(--lin)', '黃國昌': 'var(--wu)' };
+const fmt = (n) => (n == null ? '—' : Number(n).toLocaleString('en-US'));
+const pn = (p, n) => (n ? (p / n).toFixed(2) : p ? '僅支持' : '—');
+const el = (tag, attrs = {}, ...kids) => { const e = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) { if (k === 'style') e.style.cssText = v; else if (k === 'class') e.className = v; else e.setAttribute(k, v); } for (const k of kids) e.append(k instanceof Node ? k : document.createTextNode(k)); return e; };
+const NS = 'http://www.w3.org/2000/svg';
+const s = (tag, attrs = {}, text) => { const e = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v); if (text != null) e.textContent = text; return e; };
+const link = (t, u) => (u ? el('a', { href: u, target: '_blank', rel: 'noopener' }, t) : document.createTextNode(t));
+const short = (t, n = 46) => (t && t.length > n ? t.slice(0, n) + '…' : t || '（無文字）');
+const state = { list: '亞別', topic: '亞別', topi: '亞別', day: DATA.days.length - 2, sel: {}, hk: 0 };
+try { const s0 = JSON.parse(localStorage.getItem('yl-cross-state') || '{}'); Object.assign(state, s0); } catch (e) {}
+const save = () => { try { localStorage.setItem('yl-cross-state', JSON.stringify({ list: state.list, topic: state.topic })); } catch (e) {} };
+
+function seg(box, cur, pick) {
+  box.replaceChildren(...C.map((c) => { const b = el('button', { type: 'button', 'aria-pressed': String(c === cur) }, L[c]); b.onclick = () => pick(c); return b; }));
+}
+
+function kpis() {
+  const box = document.getElementById('kpis');
+  box.replaceChildren(...C.map((c) => {
+    const d = DATA.c[c];
+    return el('div', { class: 'card' },
+      el('div', { class: 'cand' }, el('span', { class: 'dot', style: `background:${COL[c]}` }), L[c]),
+      el('div', { class: 'kpi' },
+        el('div', {}, el('b', {}, fmt(d.tot)), el('span', {}, '總聲量')),
+        el('div', {}, el('b', {}, (100 * d.tot / DATA.base.reduce((a, b) => a + b, 0)).toFixed(1) + '%'), el('span', {}, '占林國漳總聲量')),
+        el('div', {}, el('b', {}, pn(d.sen[0], d.sen[2])), el('span', {}, '對林國漳 P/N')),
+        el('div', {}, el('b', { style: 'color:var(--pos)' }, fmt(d.sen[0])), el('span', {}, '支持')),
+        el('div', {}, el('b', { style: 'color:var(--neg)' }, fmt(d.sen[2])), el('span', {}, '批評'))));
+  }));
+}
+
+function trend() {
+  const box = document.getElementById('trend');
+  document.getElementById('trend-legend').replaceChildren(...C.map((c) => el('span', {}, el('i', { style: `background:${COL[c]}` }), L[c])));
+  const W = Math.max(320, box.clientWidth || 700), H = 230, m = { l: 46, r: 14, t: 18, b: 26 };
+  const days = DATA.days, n = days.length;
+  const mx = Math.max(...C.flatMap((c) => DATA.c[c].daily)) * 1.12;
+  const X = (i) => m.l + i * (W - m.l - m.r) / (n - 1), Y = (v) => m.t + (H - m.t - m.b) * (1 - v / mx);
+  const svg = s('svg', { viewBox: `0 0 ${W} ${H}`, width: '100%', role: 'img', 'aria-label': '每日聲量走勢' });
+  const bw = (W - m.l - m.r) / (n - 1);
+  const hx = Math.max(m.l, X(state.day) - bw / 2), hx2 = Math.min(W - m.r, X(state.day) + bw / 2);
+  svg.append(s('rect', { x: hx, y: m.t, width: hx2 - hx, height: H - m.t - m.b, style: 'fill:var(--hl)' }));
+  const step = 10 ** Math.floor(Math.log10(mx / 4)); const tick = Math.ceil(mx / 4 / step) * step;
+  for (let v = 0; v <= mx; v += tick) { svg.append(s('line', { x1: m.l, x2: W - m.r, y1: Y(v), y2: Y(v), style: 'stroke:var(--line)' }), s('text', { x: m.l - 6, y: Y(v) + 4, 'text-anchor': 'end', class: 'mut' }, fmt(v))); }
+  days.forEach((d, i) => svg.append(s('text', { x: X(i), y: H - 6, 'text-anchor': 'middle', class: 'mut' }, d.slice(5).replace('-', '/'))));
+  for (const c of C) {
+    const v = DATA.c[c].daily;
+    svg.append(s('polyline', { points: v.map((y, i) => `${X(i)},${Y(y)}`).join(' '), style: `fill:none;stroke:${COL[c]};stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round` }));
+    v.forEach((y, i) => svg.append(s('circle', { cx: X(i), cy: Y(y), r: 3.5, style: `fill:${COL[c]}` })));
+    const k = v.indexOf(Math.max(...v));
+    svg.append(s('text', { x: X(k), y: Y(v[k]) - 8, 'text-anchor': 'middle', style: `fill:${COL[c]};font-weight:700` }, fmt(v[k])));
+  }
+  days.forEach((d, i) => { const r = s('rect', { x: X(i) - bw / 2, y: m.t, width: bw, height: H - m.t - m.b, fill: 'transparent', style: 'cursor:pointer' }); r.append(s('title', {}, `${d}：${C.map((c) => L[c] + ' ' + fmt(DATA.c[c].daily[i])).join('、')}`)); r.onclick = () => { state.day = i; trend(); peaks(); }; svg.append(r); });
+  box.replaceChildren(svg);
+}
+
+function peaks() {
+  const tb = document.getElementById('peaks');
+  tb.replaceChildren(...C.flatMap((c) => DATA.c[c].peaks[state.day].map((p) => el('tr', {}, el('td', {}, `${L[c]}（當日 ${fmt(DATA.c[c].daily[state.day])}，占林國漳 ${(100 * DATA.c[c].daily[state.day] / DATA.base[state.day]).toFixed(1)}%）`), el('td', {}, link(short(p.title), p.url)), el('td', {}, el('span', { class: 'tag' }, p.topic)), el('td', { class: 'n' }, fmt(p.dayVol))))));
+}
+
+function lists() {
+  seg(document.getElementById('list-seg'), state.list, (c) => { state.list = c; save(); lists(); });
+  const d = DATA.c[state.list];
+  for (const [id, rows] of [['pos', d.posT], ['neg', d.negT]]) {
+    document.getElementById(id).replaceChildren(...(rows.length ? rows.map((p, i) => el('tr', {}, el('td', {}, String(i + 1)), el('td', {}, link(short(p.title, 40), p.url), el('br'), el('span', { class: 'tag' }, p.topic)), el('td', {}, p.ch || ''), el('td', { class: 'n' }, fmt(p.ic)), el('td', { class: 'n' }, fmt(p.vol)))) : [el('tr', {}, el('td', { colspan: 5, class: 'note' }, '本期沒有符合的文章'))]));
+  }
+}
+
+function topics() {
+  seg(document.getElementById('topic-seg'), state.topic, (c) => { state.topic = c; save(); topics(); });
+  const c = state.topic, ts = DATA.c[c].topics, mx = Math.max(...ts.map((t) => t.sc));
+  if (!state.sel[c]) state.sel[c] = ts[0].t;
+  document.getElementById('tlist').replaceChildren(...ts.map((t) => {
+    const tot = t.p + t.neu + t.ng || 1;
+    const row = el('div', { class: 'trow' + (t.t === state.sel[c] ? ' sel' : ''), role: 'button', tabindex: '0' },
+      el('div', {}, el('div', { class: 'tname', title: t.t }, t.t), el('div', { class: 'tbar', style: `width:${Math.max(2, 100 * t.sc / mx)}%;background:${COL[c]}` }),
+        el('div', { class: 'stance' }, el('i', { style: `width:${100 * t.p / tot}%;background:var(--pos)` }), el('i', { style: `width:${100 * t.neu / tot}%;background:var(--neu)` }), el('i', { style: `width:${100 * t.ng / tot}%;background:var(--neg)` }))),
+      el('div', { class: 'tsc' }, t.sc.toFixed(1)));
+    const go = () => { state.sel[c] = t.t; topics(); };
+    row.onclick = go; row.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } };
+    return row;
+  }));
+  const t = ts.find((x) => x.t === state.sel[c]);
+  const mxd = Math.max(...t.d, 1);
+  const spark = s('svg', { viewBox: '0 0 280 70', width: '100%', style: 'max-width:360px;display:block' });
+  t.d.forEach((v, i) => { const h = 40 * v / mxd; spark.append(s('rect', { x: 8 + i * 38, y: 52 - h, width: 26, height: h, rx: 3, style: `fill:${COL[c]}` }), s('text', { x: 21 + i * 38, y: 66, 'text-anchor': 'middle', class: 'mut', style: 'font-size:10px' }, DATA.days[i].slice(5).replace('-', '/'))); if (v) spark.append(s('text', { x: 21 + i * 38, y: 49 - h, 'text-anchor': 'middle', class: 'mut', style: 'font-size:10px' }, fmt(v))); });
+  document.getElementById('tdetail').replaceChildren(
+    el('h3', {}, t.t),
+    el('div', { class: 'dm' }, ...[['討論度', t.sc.toFixed(1)], ['聲量', fmt(t.v)], ['互動', fmt(t.i)], ['留言', fmt(t.cc)], ['支持', fmt(t.p)], ['批評', fmt(t.ng)], ['P/N', pn(t.p, t.ng)]].map(([a, b]) => el('div', {}, el('b', {}, b), el('span', {}, a)))),
+    spark,
+    el('div', { class: 'tbl' }, el('table', {}, el('thead', {}, el('tr', {}, el('th', {}, '代表貼文'), el('th', {}, '頻道'), el('th', { class: 'n' }, '聲量'), el('th', { class: 'n' }, '互動'))),
+      el('tbody', {}, ...t.top.map((p) => el('tr', {}, el('td', {}, link(short(p.title, 38), p.url)), el('td', {}, p.ch || ''), el('td', { class: 'n' }, fmt(p.vol)), el('td', { class: 'n' }, fmt(p.ic))))))));
+}
+
+function sentiment() {
+  const box = document.getElementById('sent');
+  box.replaceChildren(...C.map((c) => {
+    const [p, n0, g] = DATA.c[c].sen, tot = p + n0 + g;
+    return el('div', { style: 'margin:10px 0 16px' },
+      el('div', { class: 'cand', style: 'font-size:15px' }, el('span', { class: 'dot', style: `background:${COL[c]}` }), `${L[c]}　P/N ${pn(p, g)}`),
+      el('div', { class: 'stance', style: 'height:16px;border-radius:5px;margin:6px 0' }, el('i', { style: `width:${100 * p / tot}%;background:var(--pos)` }), el('i', { style: `width:${100 * n0 / tot}%;background:var(--neu)` }), el('i', { style: `width:${100 * g / tot}%;background:var(--neg)` })),
+      el('div', { class: 'note', style: 'margin:0' }, `支持 ${fmt(p)}・中性 ${fmt(n0)}・批評 ${fmt(g)}`));
+  }));
+}
+
+function sources() {
+  const cats = ['社群', 'threads', '新聞', '影音', '論壇', 'IG'];
+  document.getElementById('src-legend').replaceChildren(...C.map((c) => el('span', {}, el('i', { style: `background:${COL[c]}` }), L[c])));
+  const box = document.getElementById('src'), W = Math.max(300, box.clientWidth || 420), H = 220, b = 24;
+  const mx = Math.max(...C.flatMap((c) => cats.map((k) => DATA.c[c].cat[k] || 0)));
+  const svg = s('svg', { viewBox: `0 0 ${W} ${H}`, width: '100%' }), gw = W / cats.length, bw = Math.min(26, gw / 3);
+  cats.forEach((k, i) => {
+    C.forEach((c, j) => { const v = DATA.c[c].cat[k] || 0, h = (H - b - 22) * v / mx, x = i * gw + gw / 2 - bw + j * bw;
+      const r = s('rect', { x, y: H - b - h, width: bw - 2, height: h, rx: 3, style: `fill:${COL[c]}` }); r.append(s('title', {}, `${c} ${k}：${fmt(v)}`)); svg.append(r);
+      if (v) svg.append(s('text', { x: x + bw / 2 - 1, y: H - b - h - 4, 'text-anchor': 'middle', class: 'mut', style: 'font-size:10px' }, v >= 1000 ? (v / 1000).toFixed(1) + 'k' : v)); });
+    svg.append(s('text', { x: i * gw + gw / 2, y: H - 6, 'text-anchor': 'middle', class: 'mut' }, k));
+  });
+  box.replaceChildren(svg);
+}
+
+function channels() {
+  document.getElementById('channels').replaceChildren(...C.map((c) => {
+    const ch = DATA.c[c].channels, mx = ch[0][1];
+    return el('div', {}, el('div', { class: 'cand', style: 'font-size:15px;margin-bottom:6px' }, el('span', { class: 'dot', style: `background:${COL[c]}` }), L[c]),
+      ...ch.map(([n, v]) => el('div', { style: 'display:grid;grid-template-columns:minmax(0,9em) 1fr 52px;gap:8px;align-items:center;font-size:13px;margin:3px 0' },
+        el('span', { class: 'tname', title: n }, n), el('span', { style: `height:9px;border-radius:4px;background:${COL[c]};width:${Math.max(2, 100 * v / mx)}%` }), el('span', { class: 'tsc' }, fmt(v)))));
+  }));
+}
+
+function summary() {
+  const fill = (id, arr) => document.getElementById(id).replaceChildren(...arr.map((t) => { const li = el('li'); li.innerHTML = t; return li; }));
+  fill('summary', DATA.summary); fill('impact', DATA.impact);
+}
+
+const ST = { '+': ['支持', 'var(--pos)'], '-': ['批評', 'var(--neg)'], '0': ['中性', 'var(--muted)'] };
+function topi() {
+  seg(document.getElementById('topi-seg'), state.topi, (c) => { state.topi = c; topi(); });
+  document.getElementById('topi').replaceChildren(...DATA.c[state.topi].topI.map((p, i) => { const st = ST[p.st] || ['—', 'var(--muted)']; return el('tr', {}, el('td', {}, String(i + 1)), el('td', {}, link(short(p.title, 44), p.url), el('br'), el('span', { class: 'tag' }, p.topic)), el('td', {}, p.ch || ''), el('td', { class: 'n' }, fmt(p.ic)), el('td', { class: 'n' }, fmt(p.vol)), el('td', { style: `color:${st[1]};white-space:nowrap` }, st[0])); }));
+}
+
+function hk() {
+  const cats = DATA.hkcat;
+  document.getElementById('hk-legend').replaceChildren(...cats.map(([k, n, col]) => el('span', {}, el('i', { style: `background:${col}` }), n)));
+  document.getElementById('hk').replaceChildren(...DATA.hk.map((h, idx) => {
+    const row = el('div', { class: 'hkrow' + (idx === state.hk ? ' sel' : ''), role: 'button', tabindex: '0' },
+      el('div', {}, link(h.title, h.url), el('span', { class: 'note' }, `　${h.ch}｜${h.d}｜互動 ${fmt(h.ic)}｜留言 ${fmt(h.n)} 則`)),
+      el('div', { class: 'hkbar' }, ...cats.map(([k, n, col]) => { const i = el('i', { style: `width:${100 * h.cnt[k] / h.n}%;background:${col}` }); i.title = `${n} ${h.cnt[k]}`; return i; })),
+      el('div', { class: 'hknums' }, ...cats.map(([k, n]) => el('span', {}, `${n} ${fmt(h.cnt[k])}（${(100 * h.cnt[k] / h.n).toFixed(1)}%）`))));
+    const go = () => { state.hk = idx; hk(); };
+    row.onclick = go; row.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } };
+    return row;
+  }));
+  const h = DATA.hk[state.hk];
+  document.getElementById('hk-ex').replaceChildren(...cats.filter(([k]) => (h.ex[k] || []).length).map(([k, n, col]) => el('div', { class: 'ex' }, el('b', { style: `color:${col}` }, n), el('ul', {}, ...h.ex[k].map(([q, c]) => el('li', {}, `「${q}」${c > 1 ? ' ×' + c : ''}`))))));
+}
+
+function method() { document.getElementById('method').replaceChildren(...DATA.method.map((t) => { const li = el('li'); li.innerHTML = t; return li; })); }
+
+function all() { summary(); kpis(); trend(); peaks(); topi(); lists(); topics(); sentiment(); sources(); channels(); hk(); method(); }
+all();
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { trend(); sources(); }, 150); });
+</script>
+</body>
+</html>
